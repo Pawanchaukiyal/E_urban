@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather' serif;
+    /* background-color: red; */
+}
+.all-content{
+  background: #f7f5f2;
+}
+html::-webkit-scrollbar-track{
+  background: transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+  background: #1a1919;
+  border-radius: 10px;
+}
+html::-webkit-scrollbar{
+  width: 10px;
+}
+/* navbar section start */
+#navbar{
+  background-color: #afadab;
+  font-family: 'Roboto', sans-serif;
+}
+#logo img{
+  border-radius: 10px;
+  width: 120px;
+  margin-left: 40px;
+  height: 80px;
+}
+.navbar-nav{
+  margin-left: 50px;
+}
+.nav-item .nav-link{
+  color: black;
+  margin-left: 10px;
+  font-weight: bold;
+  transition: 0.5s;
+  font-size: 20px;
+  margin-left: 85px;
+}
+.nav-item .nav-link:hover{
+  background: #f7f5f2;
+  border-radius: 5px;
+  color: black;
+}
+#navbar form button{
+  background: black;
+  color: rgb(240, 158, 158);
+  border: 1px solid white;
+}
+  .icon {
+    margin-right: 15px;
+  }
+  .icon i{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(138, 136, 135);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid rgb(10, 10, 10);
+  }
+.form{
+  width: 10px;
+  height: 5px;
+  background-color: red;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+}
