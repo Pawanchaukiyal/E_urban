@@ -1,0 +1,29 @@
+.service-info {
+    padding: 20px;
+  }
+  
+  .service-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .service-details img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .details {
+    max-width: 500px;
+  }
+  
+  .details h2 {
+    font-size: 1.5em;
+  }
+  
+  .details p {
+    font-size: 1em;
+  }
+  
