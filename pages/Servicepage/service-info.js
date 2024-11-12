@@ -1,26 +1,45 @@
-// Get the card type from the URL query parameters
+const dataPaths = {
+  washing: '../../Data/item_eng.js',
+  fridge: '../../Data/item_eng.js',
+  electrician: '../../Data/extra_eng.js',
+  labour: '../../Data/labour.js'
+};
+
+
 const urlParams = new URLSearchParams(window.location.search);
-const cardType = urlParams.get('card');
+const value = urlParams.get('value');
 
-// Select the elements
-const serviceImg = document.getElementById('service-img');
-const serviceTitle = document.getElementById('service-title');
-const serviceId = document.getElementById('service-id');
-const serviceStatus = document.getElementById('service-status');
-const serviceRating = document.getElementById('service-rating');
 
-// Fetch data based on card type
-let serviceData = {};
-if (cardType === 'X' || cardType === 'Z' || cardType === 'A') {
-  serviceData = require('/urban/data/extra_eng.js');
-} else if (cardType === 'Y') {
-  serviceData = require('/urban/data/labour.js');
+if (value && dataPaths[value]) {
+  fetchDataAndDisplay(value);
+} else {
+  document.getElementById('Sevice-here').innerHTML = '<p>Value not found.</p>';
 }
 
-// Display service data (assumes each dataset is an array and the first element is for the selected card)
-const data = serviceData[0];
-serviceImg.src = data.imageUrl;
-serviceTitle.textContent = data.name;
-serviceId.textContent = `Job ID: ${data.job_id}`;
-serviceStatus.textContent = `Status: ${data.status}`;
-serviceRating.textContent = `Rating: ${data.rating}`;
+async function fetchDataAndDisplay(value) {
+  try {
+      const response = await fetch(dataPaths[value]);
+      const data = await response.json();
+
+      let content = `<h2>${value.charAt(0).toUpperCase() + value.slice(1)} Data</h2>`;
+      // console.log(content);
+
+      data.forEach(item => {
+          // Modified part: passing all necessary details in the URL as query parameters
+          content += `
+              <div class="card">
+                  <img src="${item.image}" alt="${item.name}">
+                  <h3>${item.name}</h3>
+                  <p>${item.description}</p>
+                  <p>Price: $${item.price}</p>
+                  <button onclick="window.location.href='../../pages/order/order.html?name=${encodeURIComponent(item.name)}&image=${encodeURIComponent(item.image)}&description=${encodeURIComponent(item.description)}&price=${encodeURIComponent(item.price)}'">Order Now</button>
+              </div>
+          `;
+      });
+
+      document.getElementById('Sevice-here').innerHTML = content;
+  } catch (error) {
+      console.error('Error fetching data:', error);
+      document.getElementById('Sevice-here').innerHTML = '<p>Error loading data.</p>';
+  }
+}

@@ -1,36 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Service Page</title>
-  <link rel="stylesheet" href="service.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Cards</title>
+    <link rel="stylesheet" href="Service.css">
 </head>
 <body>
-  <div class="service-page">
-    <h1>Our Services</h1>
     <div class="card-container">
-      <div class="card" onclick="window.location.href='/urban/pages/Servicepage/service-info.html?card=X'">
-        <!-- Reuse Card Component for X -->
-        <img src="path_to_image_x.jpg" alt="Card X" />
-        <h3>X</h3>
-      </div>
-      <div class="card" onclick="window.location.href='/urban/pages/Servicepage/service-info.html?card=Y'">
-        <!-- Reuse Card Component for Y -->
-        <img src="path_to_image_y.jpg" alt="Card Y" />
-        <h3>Y</h3>
-      </div>
-      <div class="card" onclick="window.location.href='/urban/pages/Servicepage/service-info.html?card=Z'">
-        <!-- Reuse Card Component for Z -->
-        <img src="path_to_image_z.jpg" alt="Card Z" />
-        <h3>Z</h3>
-      </div>
-      <div class="card" onclick="window.location.href='/urban/pages/Servicepage/service-info.html?card=A'">
-        <!-- Reuse Card Component for A -->
-        <img src="path_to_image_a.jpg" alt="Card A" />
-        <h3>A</h3>
-      </div>
+        <div class="card"  onclick="navigateToCategory('Washing')">
+            <img src="https://t3.ftcdn.net/jpg/08/83/47/80/360_F_883478070_tfmnnU1KyY3nrgOl9vgcKwJwPk9L4Ta0.jpg" alt="Card Image 1">
+            <h3>Washing Machine Repair</h3>
+            
+        </div>
+
+        <div class="card" onclick="navigateToCategory('fridge')">
+            <img src="https://5.imimg.com/data5/QZ/KH/YQ/SELLER-8147187/whatsapp-image-2019-09-02-at-1-36-03-pm-500x500.jpeg" alt="Card Image 2">
+            <h3>Fridge Repair</h3>
+
+        </div>
+
+        <div class="card" onclick="navigateToCategory('electrician')">
+            <img src="https://static.vecteezy.com/system/resources/thumbnails/024/083/985/small_2x/electrician-engineer-checking-electric-current-voltage-at-circuit-breaker-and-cable-wiring-system-concept-of-electrical-maintenance-service-generative-ai-photo.jpg" alt="Card Image 3">
+            <h3>Electrician</h3>
+
+        </div>
+
+        <div class="card" onclick="navigateToCategory('labour')">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMOytldh3eXaItCI-Zo5ZROihsI4PHwZ_ctw&s" alt="Card Image 4">
+            <h3>Labour</h3>
+
+        </div>
     </div>
-  </div>
-  <script src="service.js"></script>
+
+    <script src="Service.js"></script>
 </body>
 </html>
