@@ -4,9 +4,6 @@
     box-sizing: border-box;
 }
 
-body{
-    background-image: url("https://th.bing.com/th/id/OIP.5W32QPJW8xnq1gZK-806xQHaEo?rs=1&pid=ImgDetMain");
-}
 .section{
     width: 100%;
     min-height: 100vh;
