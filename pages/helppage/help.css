@@ -54,3 +54,11 @@ p {
 #top-card{
     width: 1150px;
 }
+
+.footer i{
+     font-size: 35px;
+     margin-left: 20px;
+     justify-content: center;
+     
+     
+}
