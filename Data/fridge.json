@@ -1,0 +1,49 @@
+[
+    {
+        "name": "John Miller",
+        "contact_number": "123-456-7890",
+        "status": "available",
+        "image": "https://www.shutterstock.com/image-photo/male-worker-repairing-refrigerator-screwdriver-260nw-1666788403.jpg",
+        "email": "johnmiller@example.com",
+        "job_id": "LP101"
+    },
+    {
+        "name": "Olivia Davis",
+        "contact_number": "234-567-8901",
+        "status": "not available",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA6ye5nFTx7K_DZFoSwAvax3nXMckCyJbVDA&s",
+        "email": "oliviadavis@example.com",
+        "job_id": "LP102"
+    },
+    {
+        "name": "Liam Wilson",
+        "contact_number": "345-678-9012",
+        "status": "available",
+        "image": "https://media.istockphoto.com/id/928076884/photo/technician-repairing-refrigerator.jpg?s=612x612&w=0&k=20&c=nne6NADOGZC02WqwHRmKozzThjhwoNQc0VzvZgeq4VA=",
+        "job_id": "LP103"
+    },
+    {
+        "name": "Emma Johnson",
+        "contact_number": "456-789-0123",
+        "status": "not available",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQH_9JI-yTGA__7veKXDr4KobDEBCyA9D3aKg&s",
+        "job_id": "LP104"
+    },
+    {
+        "name": "Mason Thomas",
+        "contact_number": "567-890-1234",
+        "status": "available",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbggV2YaTQ1RkSTm7su2JKmmiJFFiqtuTOew&s",
+        "email": "masonthomas@example.com",
+        "job_id": "LP105"
+    },
+    {
+        "name": "Sophia Moore",
+        "contact_number": "678-901-2345",
+        "status": "available",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDp9scyOlEoi15bolsbForqGtDGyn71kFPUg&s",
+        "email": "sophiamoore@example.com",
+        "job_id": "LP106"
+    }
+ 
+]

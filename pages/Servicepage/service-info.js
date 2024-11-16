@@ -1,6 +1,6 @@
 const dataPaths = {
   washing: '../../Data/item_eng.json',
-  fridge: '../../Data/item_eng.json',
+  fridge: '../../Data/fridge.json',
   electrician: '../../Data/extra_eng.json',
   labour: '../../Data/labour.json'
 };

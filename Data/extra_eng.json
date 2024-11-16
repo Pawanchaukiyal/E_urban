@@ -3,7 +3,7 @@
         "name": "John Miller",
         "contact_number": "123-456-7890",
         "status": "available",
-        "image": "https://example.com/images/john_miller.jpg",
+        "image": "https://media.istockphoto.com/id/2150332096/photo/industrial-data-automation-system-on-computer.webp?a=1&b=1&s=612x612&w=0&k=20&c=p6VRSqf7wibc4MQPDMjG-pbJugqB_T6WW-pQxfspraA=",
         "email": "johnmiller@example.com",
         "job_id": "LP101"
     },
@@ -11,7 +11,7 @@
         "name": "Olivia Davis",
         "contact_number": "234-567-8901",
         "status": "not available",
-        "image": "https://example.com/images/olivia_davis.jpg",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA6ye5nFTx7K_DZFoSwAvax3nXMckCyJbVDA&s",
         "email": "oliviadavis@example.com",
         "job_id": "LP102"
     },
@@ -19,7 +19,7 @@
         "name": "Liam Wilson",
         "contact_number": "345-678-9012",
         "status": "available",
-        "image": "https://example.com/images/liam_wilson.jpg",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSipGsDwQiguThBqJSHlCJm-p7N4aVpVp99fg&s",
         "email": "liamwilson@example.com",
         "job_id": "LP103"
     },
@@ -27,7 +27,7 @@
         "name": "Emma Johnson",
         "contact_number": "456-789-0123",
         "status": "not available",
-        "image": "https://example.com/images/emma_johnson.jpg",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxQoEbAloPz0L7LnVqtHaXTGGF4ubRca_hqw&s",
         "email": "emmajohnson@example.com",
         "job_id": "LP104"
     },
@@ -35,7 +35,7 @@
         "name": "Mason Thomas",
         "contact_number": "567-890-1234",
         "status": "available",
-        "image": "https://example.com/images/mason_thomas.jpg",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDJW-xoJkft8CT99Yox8nwoHT9tEqOHJN25w&s",
         "email": "masonthomas@example.com",
         "job_id": "LP105"
     },
@@ -43,7 +43,7 @@
         "name": "Sophia Moore",
         "contact_number": "678-901-2345",
         "status": "available",
-        "image": "https://example.com/images/sophia_moore.jpg",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSBY4fh-4qB9PLiO2ly487jvlfNVF7An_vyA&s",
         "email": "sophiamoore@example.com",
         "job_id": "LP106"
     },
@@ -51,7 +51,7 @@
         "name": "James Brown",
         "contact_number": "789-012-3456",
         "status": "not available",
-        "image": "https://example.com/images/james_brown.jpg",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-PpjgpoNUQlFhSR3UpcMy-SC7uVFwdnAFTw&s",
         "email": "jamesbrown@example.com",
         "job_id": "LP107"
     },
@@ -59,7 +59,7 @@
         "name": "Ava Taylor",
         "contact_number": "890-123-4567",
         "status": "available",
-        "image": "https://example.com/images/ava_taylor.jpg",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIzQQOjJBeXqD3ow6aZAcRLxuyu0ydRfxkXw&s",
         "email": "avataylor@example.com",
         "job_id": "LP108"
     },
@@ -67,7 +67,7 @@
         "name": "Benjamin Harris",
         "contact_number": "901-234-5678",
         "status": "not available",
-        "image": "https://example.com/images/benjamin_harris.jpg",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUzrJ7xWCQr6DJGTvxz89L5LJWQ2sllIiekQ&s",
         "email": "benjaminharris@example.com",
         "job_id": "LP109"
     },
@@ -75,7 +75,7 @@
         "name": "Isabella Clark",
         "contact_number": "012-345-6789",
         "status": "available",
-        "image": "https://example.com/images/isabella_clark.jpg",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR21WvMhn7RlrGYQJN3Dgsrg74ONl6EFjIs0g&s",
         "email": "isabellaclark@example.com",
         "job_id": "LP110"
     }
