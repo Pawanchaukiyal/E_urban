@@ -3,7 +3,7 @@
         "name": "John Doe",
         "contact_number": "123-456-7890",
         "status": "available",
-        "image": "https://example.com/images/john_doe.jpg",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTre0bOJ9q8Tc1_pnUcw6nWPvc3BDGhWlMFNQ&s",
         "email": "johndoe@example.com",
         "job_id": "WM101"
     },
@@ -11,7 +11,7 @@
         "name": "Jane Smith",
         "contact_number": "234-567-8901",
         "status": "not available",
-        "image": "https://example.com/images/jane_smith.jpg",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7Ko7iyQ41y_yjXblzZfu7vcheBKmY6jWBew&s",
         "email": "janesmith@example.com",
         "job_id": "WM102"
     },
@@ -19,7 +19,7 @@
         "name": "Mike Johnson",
         "contact_number": "345-678-9012",
         "status": "available",
-        "image": "https://example.com/images/mike_johnson.jpg",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSch0sN-FJqYU9uomXOsSzv4FxiyR5EAzFZxQ&s",
         "email": "mikejohnson@example.com",
         "job_id": "WM103"
     },
@@ -27,7 +27,7 @@
         "name": "Emily Brown",
         "contact_number": "456-789-0123",
         "status": "not available",
-        "image": "https://example.com/images/emily_brown.jpg",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTR9dJT3df6ugOmmSs7wfZ2JoOsVRpbCj9QSQ&s",
         "email": "emilybrown@example.com",
         "job_id": "WM104"
     },
@@ -35,7 +35,7 @@
         "name": "Chris Davis",
         "contact_number": "567-890-1234",
         "status": "available",
-        "image": "https://example.com/images/chris_davis.jpg",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsZt1GajHTAI2_Lr5-mBterFo1JG6bZXj5pg&s",
         "email": "chrisdavis@example.com",
         "job_id": "WM105"
     },
@@ -43,7 +43,7 @@
         "name": "Laura Wilson",
         "contact_number": "678-901-2345",
         "status": "available",
-        "image": "https://example.com/images/laura_wilson.jpg",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5AGy-22zWHL8b9wiyaNrtEse4uQwcopt5dQ&s",
         "email": "laurawilson@example.com",
         "job_id": "WM106"
     },
@@ -51,7 +51,7 @@
         "name": "James Anderson",
         "contact_number": "789-012-3456",
         "status": "not available",
-        "image": "https://example.com/images/james_anderson.jpg",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSauHuCqcX7S1GmJDFg0M9-s-RdHviNK47wVQ&s",
         "email": "jamesanderson@example.com",
         "job_id": "WM107"
     },
@@ -59,7 +59,7 @@
         "name": "Sarah Thomas",
         "contact_number": "890-123-4567",
         "status": "available",
-        "image": "https://example.com/images/sarah_thomas.jpg",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuORT18Ofl0BlVPK7yPTqQXK09TmyQDi-J6w&s",
         "email": "sarahthomas@example.com",
         "job_id": "WM108"
     },
@@ -67,7 +67,7 @@
         "name": "David Lee",
         "contact_number": "901-234-5678",
         "status": "not available",
-        "image": "https://example.com/images/david_lee.jpg",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTO8pWIaa7RZkLqh-3YccwhOedf5GsE07_oWA&s",
         "email": "davidlee@example.com",
         "job_id": "WM109"
     },
@@ -75,7 +75,7 @@
         "name": "Anna Martinez",
         "contact_number": "012-345-6789",
         "status": "available",
-        "image": "https://example.com/images/anna_martinez.jpg",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6Q__9RGfb2RxXzSCQy5Z7Y7WqATJ5WMxPQA&s",
         "email": "annamartinez@example.com",
         "job_id": "WM110"
     }

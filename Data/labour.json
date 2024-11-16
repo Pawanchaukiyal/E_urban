@@ -3,7 +3,7 @@
         "name": "Alex Turner",
         "contact_number": "123-456-7890",
         "status": "available",
-        "image": "https://example.com/images/alex_turner.jpg",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXvRIlaHcICswVgyS6RmuuorLBQUv2wDs9ZQ&s",
         "email": "alexturner@example.com",
         "job_id": "EE101"
     },
@@ -11,7 +11,7 @@
         "name": "Bethany Green",
         "contact_number": "234-567-8901",
         "status": "not available",
-        "image": "https://example.com/images/bethany_green.jpg",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_IGC0iMH2xpRcSOnbyL4lLqjGAB8CN17qTA&s",
         "email": "bethanygreen@example.com",
         "job_id": "EE102"
     },
@@ -19,7 +19,7 @@
         "name": "Carl White",
         "contact_number": "345-678-9012",
         "status": "available",
-        "image": "https://example.com/images/carl_white.jpg",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7A_M1dKnPdpeIuAsxQJ4V7sTfwY6L4J0GuQ&s",
         "email": "carlwhite@example.com",
         "job_id": "EE103"
     },
@@ -27,7 +27,7 @@
         "name": "Dana Black",
         "contact_number": "456-789-0123",
         "status": "not available",
-        "image": "https://example.com/images/dana_black.jpg",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQu2H086IaFUWg1LonHoZKa8xEmcEtp3hhk3A&s",
         "email": "danablack@example.com",
         "job_id": "EE104"
     },
@@ -35,7 +35,7 @@
         "name": "Evan Brown",
         "contact_number": "567-890-1234",
         "status": "available",
-        "image": "https://example.com/images/evan_brown.jpg",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3UxxqDy_2c00JFozyghWaEIut7oQ1nV_RcA&s",
         "email": "evanbrown@example.com",
         "job_id": "EE105"
     },
@@ -43,7 +43,7 @@
         "name": "Fiona Clark",
         "contact_number": "678-901-2345",
         "status": "available",
-        "image": "https://example.com/images/fiona_clark.jpg",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxR_rogRD8xwhnKH75mRin83ZT5smEp7TedQ&s",
         "email": "fionaclark@example.com",
         "job_id": "EE106"
     },
@@ -51,7 +51,7 @@
         "name": "George Harris",
         "contact_number": "789-012-3456",
         "status": "not available",
-        "image": "https://example.com/images/george_harris.jpg",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKM74Tf2IuFQnerm2Orv-l7qCIwuOUR1zUEg&s",
         "email": "georgeharris@example.com",
         "job_id": "EE107"
     },
@@ -59,7 +59,7 @@
         "name": "Hannah Scott",
         "contact_number": "890-123-4567",
         "status": "available",
-        "image": "https://example.com/images/hannah_scott.jpg",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsHju7wcLi4PRjfsGDDCOnJpRH6JXfiWJ4tw&s",
         "email": "hannahscott@example.com",
         "job_id": "EE108"
     },
@@ -67,7 +67,7 @@
         "name": "Isaac Adams",
         "contact_number": "901-234-5678",
         "status": "not available",
-        "image": "https://example.com/images/isaac_adams.jpg",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgZYTmApQXIAycO71GKaC-pPvcfT3RYmQDZQ&s",
         "email": "isaacadams@example.com",
         "job_id": "EE109"
     },
@@ -75,7 +75,7 @@
         "name": "Julia Martinez",
         "contact_number": "012-345-6789",
         "status": "available",
-        "image": "https://example.com/images/julia_martinez.jpg",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAVfTXVKqECTz5yP3u1OW7pZsiuwCi7pAKEQ&s",
         "email": "juliamartinez@example.com",
         "job_id": "EE110"
     }
