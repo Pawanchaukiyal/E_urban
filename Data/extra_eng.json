@@ -3,7 +3,11 @@
         "name": "John Miller",
         "contact_number": "123-456-7890",
         "status": "available",
+<<<<<<< HEAD
+        "image": "https://th.bing.com/th?id=OIP.kiEwZ3CxG4cb8ASbDTfatAHaEK&w=333&h=187&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2",
+=======
         "image": "https://media.istockphoto.com/id/2150332096/photo/industrial-data-automation-system-on-computer.webp?a=1&b=1&s=612x612&w=0&k=20&c=p6VRSqf7wibc4MQPDMjG-pbJugqB_T6WW-pQxfspraA=",
+>>>>>>> 0f63a59183b5cffa482e1d5d5247a68af8503092
         "email": "johnmiller@example.com",
         "job_id": "LP101"
     },

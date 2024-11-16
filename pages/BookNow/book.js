@@ -26,9 +26,9 @@ if (name && image && status&& job_id) {
                 <button onclick="buyNow()">Buy Now</button>
             </div>
         </div>
-    `;
+    ;
 } else {
-    orderDetails.innerHTML = '<p>SORRY! FOR YOUR iNCOVENCIENCE .</p>';
+    orderDetails.innerHTML = '<p>SORRY! FOR YOUR INCOVENCIENCE .</p>';
 }
 
 // Function for "Buy Now" button (you can extend this to implement actual buying functionality)
