@@ -34,7 +34,8 @@ p {
     margin-left: 170px;
     font-size: 25px;
     margin-top: 10px;
-    color: blue;
+    color:blue;
+    
 }
 
 .card h6 {
@@ -49,4 +50,15 @@ p {
 .container {
     margin-left: 290px;
     margin-bottom: 10px;
+}
+#top-card{
+    width: 1150px;
+}
+
+.footer i{
+     font-size: 35px;
+     margin-left: 20px;
+     justify-content: center;
+     
+     
 }
