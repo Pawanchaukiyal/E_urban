@@ -1,76 +1,103 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Merriweather' serif;
-    /* background-color: red; */
-}
-.all-content{
-  background: #f7f5f2;
-}
-html::-webkit-scrollbar-track{
-  background: transparent;
+/* Basic reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-html::-webkit-scrollbar-thumb{
-  background: #1a1919;
-  border-radius: 10px;
+/* Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
 }
-html::-webkit-scrollbar{
-  width: 10px;
-}
-/* navbar section start */
-#navbar{
-  background-color: #afadab;
-  font-family: 'Roboto', sans-serif;
-}
-#logo img{
-  border-radius: 10px;
-  width: 120px;
-  margin-left: 40px;
-  height: 80px;
-}
-.navbar-nav{
-  margin-left: 50px;
-}
-.nav-item .nav-link{
-  color: black;
-  margin-left: 10px;
-  font-weight: bold;
-  transition: 0.5s;
-  font-size: 20px;
-  margin-left: 85px;
-}
-.nav-item .nav-link:hover{
-  background: #f7f5f2;
-  border-radius: 5px;
-  color: black;
-}
-#navbar form button{
-  background: black;
-  color: rgb(240, 158, 158);
-  border: 1px solid white;
-}
-  .icon {
-    margin-right: 15px;
-  }
-  .icon i{
-    height: 40px;
-    width: 40px;
-    background-color: rgb(138, 136, 135);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    cursor: pointer;
-    border: 2px solid rgb(10, 10, 10);
-  }
-.form{
-  width: 10px;
-  height: 5px;
-  background-color: red;
-  justify-content: center;
+
+/* Navbar Styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+}
+
+.navbar .logo img {
+  width: 150px;
+  height: auto;
+}
+
+.nav-links ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+.nav-links ul li {
+  display: inline-block;
+
+}
+
+.nav-links ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  transition: color 0.3s ease;
+  margin: 40px;
   
+}
+
+.nav-links ul li a:hover {
+  color: #f4a261;
+}
+
+/* Search bar styling */
+.search-bar input {
+  padding: 8px 12px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: none;
+  width: 200px;
+}
+
+/* Responsive Media Queries */
+
+/* Tablet and below: Navbar stacking and search bar expanding */
+@media (max-width: 1024px) {
+  .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  .nav-links ul {
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 10px;
+  }
+
+  .search-bar input {
+      width: 100%;
+      margin-top: 10px;
+  }
+}
+
+/* Mobile first: Stack logo, nav, and search */
+@media (max-width: 600px) {
+  .navbar {
+      padding: 15px;
+  }
+
+  .logo img {
+      width: 120px;
+  }
+
+  .nav-links ul {
+      gap: 8px;
+      text-align: center;
+  }
+
+  .search-bar input {
+      width: 100%;
+      margin-top: 10px;
+  }
 }

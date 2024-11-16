@@ -1,5 +1,5 @@
-<<<<<<< HEAD
-=======
+ <<<<<<< HEAD
+ =======
 const dataPaths = {
   washing: '../../Data/item_eng.json',
   fridge: '../../Data/item_eng.json',
@@ -51,4 +51,4 @@ async function fetchDataAndDisplay(value) {
       document.getElementById('Sevice-here').innerHTML = '<p>Error loading data.</p>';
   }
 }
->>>>>>> 6252f40162610ccf7ac35a84915e97f91716bbec
+>>>>>>>      6252f40162610ccf7ac35a84915e97f91716bbec
