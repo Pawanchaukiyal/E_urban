@@ -1,5 +1,3 @@
-// order.js - Fetch the query parameters and display the product details
-
 // Function to get query parameters from the URL
 function getQueryParam(name) {
     const urlParams = new URLSearchParams(window.location.search);
@@ -15,20 +13,35 @@ const job_id = getQueryParam('job_id');
 // Display the order details
 const orderDetails = document.getElementById('order-details');
 
-if (name && image && status&& job_id) {
+// Default image if no image URL is provided
+const defaultImage = 'path/to/default-image.jpg';
+
+if (name && image && status && job_id) {
     orderDetails.innerHTML = `
         <div class="order-container">
-            <img src="${image}" alt="${name}">
+            <img src="${image || defaultImage}" alt="${name}">
             <div class="order-details">
                 <h3>${name}</h3>
-                <p>${status}</p>
-                <p class="job_id">job_id: $${job_id}</p>
+                <p>Status: ${status}</p>
+                <p class="job_id">Job ID: ${job_id}</p>
                 <button onclick="buyNow()">Buy Now</button>
             </div>
         </div>
-    ;
+    `;
 } else {
-    orderDetails.innerHTML = '<p>SORRY! FOR YOUR INCOVENCIENCE .</p>';
+    // Log the error for debugging purposes
+    console.error('Missing required query parameters:');
+    if (!name) console.error('Missing name');
+    if (!image) console.error('Missing image');
+    if (!status) console.error('Missing status');
+    if (!job_id) console.error('Missing job_id');
+
+    // Show user-friendly error message
+    orderDetails.innerHTML = `
+        <div class="error-message">
+            <p>Oops! It seems that some order details are missing. Please check the link and try again.</p>
+        </div>
+    `;
 }
 
 // Function for "Buy Now" button (you can extend this to implement actual buying functionality)
