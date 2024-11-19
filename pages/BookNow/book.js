@@ -24,7 +24,7 @@ if (name && image && status && job_id) {
                 <h3>${name}</h3>
                 <p>Status: ${status}</p>
                 <p class="job_id">Job ID: ${job_id}</p>
-                <button onclick="buyNow()">Buy Now</button>
+                <button onclick="bookNow()">BookNow</button>
             </div>
         </div>
     `;
@@ -45,7 +45,7 @@ if (name && image && status && job_id) {
 }
 
 // Function for "Buy Now" button (you can extend this to implement actual buying functionality)
-function buyNow() {
+function bookNow() {
     alert('Thank you for your purchase!');
     // You can implement redirection or other functionality here for the actual buy process.
 }

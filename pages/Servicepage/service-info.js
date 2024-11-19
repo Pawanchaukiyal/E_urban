@@ -37,7 +37,7 @@ async function fetchDataAndDisplay(value) {
                   <img src="${item.image}" alt="${item.name}">
                   <h3>${item.name}</h3>
                   <p>${item.status}</p>
-                  <p>ById: $${item.job_id}</p>
+                  <p>job-Id: $${item.job_id}</p>
                   <button onclick="window.location.href='../BookNow/book.html?name=${encodeURIComponent(item.name)}&image=${encodeURIComponent(item.image)}&status=${encodeURIComponent(item.status)}&job_id=${encodeURIComponent(item.job_id)}'">BookNow</button>
               </div>
           `;
