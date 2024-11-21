@@ -25,6 +25,7 @@ if (name && image && status && job_id) {
                 <p>Status: ${status}</p>
                 <p class="job_id">Job ID: ${job_id}</p>
                 <button onclick="bookNow()">BookNow</button>
+                
             </div>
         </div>
     `;
