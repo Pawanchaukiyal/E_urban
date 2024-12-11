@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded',
 
 document.addEventListener('DOMContentLoaded', 
     function () {
-        fetch('../../components/services/Service.html')
+        fetch('/E_urban/components/service/service.js')
             .then(response => response.text())
             .then(data => {
                 document.querySelector('.services-item').innerHTML = data;
@@ -36,6 +36,23 @@ document.addEventListener('DOMContentLoaded',
             });
     }
 );
+
+
+document.addEventListener('DOMContentLoaded', 
+    function () {
+        fetch('../../components/gallerypage/gallery.html')
+            .then(response => response.text())
+            .then(data => {
+                document.querySelector('.gallerypage-item').innerHTML = data;
+            })
+            .catch(error => {
+                console.error("Error loading gallerypage:", error);
+            });
+    }
+);
+
+
+
 
 
 document.addEventListener('DOMContentLoaded', 

@@ -50,3 +50,6 @@ function bookNow() {
     alert('Thank you for your purchase!');
     // You can implement redirection or other functionality here for the actual buy process.
 }
+
+
+ 

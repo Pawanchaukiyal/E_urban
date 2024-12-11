@@ -3,10 +3,10 @@
 
 .card-container {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
-  width: 80%;
-  margin: auto;
+  grid-template-columns: repeat(7, 2fr);
+  gap: 1px;
+  width: 200%;
+  margin-left: 10px;
 }
 
 .card {
@@ -15,10 +15,11 @@
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+
 }
 
 .card img {
-  width: 100%;
+  width: 170px;
   height: 200px;
 }
 
@@ -34,7 +35,7 @@
 
 .card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 16px rgba(5, 5, 5, 0.2);
 }
 
 /* Responsive Design */
